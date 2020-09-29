@@ -115,4 +115,4 @@ if (answer5 === 'no' || answer5 === 'n'){
     countOfUnrecognizedAnswers++;
 } 
 
-alert("Thank you for playing, " + userName + ". You had " + countOfCorrectAnswers + " correct answers, " + countOfIncorrectAnswers + " incorrect answers, and " + countOfUnrecognizedAnswers + " unrecognized answers. Thanks for playing!")
+alert("Thank you for playing, " + userName + ". You had " + countOfCorrectAnswers + " correct answers, " + countOfIncorrectAnswers + " incorrect answers, and " + countOfUnrecognizedAnswers + " unrecognized answers.")
