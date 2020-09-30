@@ -143,11 +143,10 @@ while (answer6 != correctAnswer && i < maxGuesses) {
         i++;
     }
 
-    if (i === maxGuesses) {
+    if (answer6 != correctAnswer && i === maxGuesses) {
         //the user did not figure it out. 
         alert('I\'m sorry, that was all of your guesses! The correct number is ' + correctAnswer + '.');
         countOfIncorrectAnswers++;
-        i = maxGuesses;
     }
 }
 
