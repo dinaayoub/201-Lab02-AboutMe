@@ -138,7 +138,7 @@ while (answer6 != correctAnswer && i < maxGuesses) {
         alert('You answered ' + answer6 + ' and that is too low! This was guess number ' + (i + 1) + '.');
         i++;
     } else {
-        console.log('I don\'t understand the user\'s  answer: ' + answer6 +'. This was guess number ' + (i + 1) + '.');
+        console.log('I don\'t understand the user\'s  answer: ' + answer6 + '. This was guess number ' + (i + 1) + '.');
         alert('I don\'t understand that answer: ' + answer6 + '. Please enter numbers only! This was guess number ' + (i + 1) + '.');
         i++;
     }
@@ -185,20 +185,26 @@ while (!isCorrectAnswer && guesses < maxNumberOfGuesses) {
 
 //if we've finished looping and the user still hasn't guessed correctly, let them know they're out of guesses. 
 if (!isCorrectAnswer) {
-    
+
     alert('I\m sorry, that was all of your guesses.');
     //increment incorrect answers.
     countOfIncorrectAnswers++;
 }
 
 //create a string with the name of all the cities in the array. 
-var cities = '';
+var listOfCities = '';
 //iterate over the array to concatenate the name of each city
-for (var i=0; i<tenFavoriteCities.length; i++){
-        cities+=tenFavoriteCities[i] + ', ';
+for (var i = 0; i < tenFavoriteCities.length; i++) {
+    if (i==tenFavoriteCities.length-1) {
+
+        listOfCities += tenFavoriteCities[i] +".";
+    }
+    else {
+        listOfCities += tenFavoriteCities[i] + ', ';
+    }
 }
 //now we have the whole list of cities, display it to the user. 
-alert('The correct answers were: ' + cities);
+alert('The correct answers were: ' + listOfCities);
 
 // This is just to determine whether to use the word answer (singular) or answers (plural)
 // entirely unnecessary, just for more practice. 
