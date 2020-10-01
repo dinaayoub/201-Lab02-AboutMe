@@ -1,6 +1,6 @@
 # 201-Lab02-AboutMe
 
-## Guessing game
+## Guessing game by Dina Ayoub
 ### Lab 02
 - Asked five questions, kept track of correct, incorrect and unrecognized answers. 
 - HTML page has my biography, education, work experience, and goals. 
