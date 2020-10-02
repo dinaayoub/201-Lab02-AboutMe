@@ -11,3 +11,7 @@
 - Asked a 7th question for a string, and gave the user 6 guesses, then told them what all the correct guesses would have been. 
 - Gave the user a tally of their score. 
 
+### Lab 04
+- Did the pair programming exercise with Dylan Munson
+- Created a function for the first 5 questions and called it 5 times with the different answers
+- Created a function for the 6th question and another for the 7th question. 
